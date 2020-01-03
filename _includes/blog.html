@@ -1,0 +1,13 @@
+---
+layout: base.html
+---
+
+<h1>{{ title }}</h1>
+
+<p>
+  Mark Cohen, {{ page.date | dateFormat }}
+</p>
+
+<hr />
+
+{{ content | safe }}
