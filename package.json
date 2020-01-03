@@ -1,0 +1,9 @@
+{
+  "name": "wobsite",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.9.0"
+  }
+}
