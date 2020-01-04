@@ -1,6 +1,7 @@
 ---
 title: "Reflections on CS220"
 date: 2019-01-30
+draft: true
 ---
 
 Last spring quarter, I had the incredible privilege to TA for a new class in the UChicago CS department: CMSC 22000, Intro to Software Engineering.
