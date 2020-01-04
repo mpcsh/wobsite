@@ -1,6 +1,7 @@
 ---
 title: "A Pair Programming Server"
 date: 2019-01-30
+draft: true
 ---
 
 Pair programming is awesome. I did a lot of it this past summer at Braintree, and I've tried to replicate the infrastructure here. Here's how pairing sessions go:

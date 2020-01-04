@@ -1,9 +1,12 @@
 {
   "name": "wobsite",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "SHOW_DRAFTS=true npx @11ty/eleventy --serve",
+    "publish": "rm -rf _site/ && npx @11ty/eleventy && now --prod deploy _site/ -n wobsite"
   },
-  "devDependencies": {
-    "@11ty/eleventy": "^0.9.0"
+  "dependencies": {
+    "@11ty/eleventy": "^0.9.0",
+    "html-to-text": "^5.1.1",
+    "reading-time": "^1.2.0"
   }
 }
