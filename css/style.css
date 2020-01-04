@@ -1,37 +1,36 @@
 @font-face {
   font-family: Spectral;
-  src: url(/fonts/spectral/spectral-regular.ttf);
+  src: url(/fonts/spectral/spectral-regular.woff);
 }
 
 @font-face {
   font-family: Spectral;
   font-style: italic;
-  src: url(/fonts/spectral/spectral-italic.ttf);
+  src: url(/fonts/spectral/spectral-italic.woff);
 }
 
 @font-face {
   font-family: Spectral;
   font-weight: 700;
-  src: url(/fonts/spectral/spectral-bold.ttf);
+  src: url(/fonts/spectral/spectral-bold.woff);
 }
 
 @font-face {
   font-family: Iosevka;
-  src: url(/fonts/iosevka/iosevka-term-regular.ttf);
+  src: url(/fonts/iosevka/iosevka-term-regular.woff);
 }
 
 @font-face {
   font-family: Iosevka;
   font-style: italic;
-  src: url(/fonts/iosevka/iosevka-term-italic.ttf);
+  src: url(/fonts/iosevka/iosevka-term-italic.woff);
 }
 
 @font-face {
   font-family: Iosevka;
   font-weight: 700;
-  src: url(/fonts/iosevka/iosevka-term-bold.ttf);
+  src: url(/fonts/iosevka/iosevka-term-bold.woff);
 }
-
 
 body {
   margin: 40px auto;
@@ -44,7 +43,9 @@ body {
   font-family: Spectral, serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   line-height: 1.2;
   margin-top: 48px;
   margin-bottom: 0px;
@@ -62,11 +63,13 @@ h3 {
   font-size: 24px;
 }
 
-a, a:visited {
+a,
+a:visited {
   color: #0679a7;
 }
 
-a:active, a:focus {
+a:active,
+a:focus {
   outline: 0;
 }
 
@@ -121,7 +124,8 @@ blockquote {
   color: #0679a7;
 }
 
-.nav a:active, .nav a:focus {
+.nav a:active,
+.nav a:focus {
   outline: 0;
 }
 
@@ -141,8 +145,8 @@ blockquote {
   grid-template-columns: 3fr 1fr;
   grid-template-rows: auto;
   grid-template-areas:
-    "title date"
-    "description minutes";
+    'title date'
+    'description minutes';
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -176,9 +180,9 @@ blockquote {
     grid-template-columns: auto 1fr;
     grid-template-rows: auto;
     grid-template-areas:
-      "title title"
-      "date minutes"
-      "description description";
+      'title title'
+      'date minutes'
+      'description description';
     margin-top: 20px;
     margin-bottom: 20px;
   }
@@ -206,6 +210,7 @@ blockquote {
   color: #0679a7;
 }
 
-.posts a:active, .posts a:focus {
+.posts a:active,
+.posts a:focus {
   outline: 0;
 }
