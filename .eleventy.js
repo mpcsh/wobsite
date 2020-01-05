@@ -1,4 +1,4 @@
-const htmlToText = require('html-to-text');
+const description = require('eleventy-plugin-description');
 const readingTime = require('reading-time');
 
 module.exports = function(config) {
@@ -23,26 +23,7 @@ module.exports = function(config) {
     }).format(date),
   );
 
-  config.addFilter('description', templateContent => {
-    let content = htmlToText.fromString(templateContent, {
-      wordwrap: false,
-      ignoreHref: true,
-      ignoreImage: true,
-      uppercaseHeadings: false,
-    });
-
-    let sentences = content.split(
-      /(\p{Terminal_Punctuation}\p{White_Space})/gu,
-    );
-
-    let beginning = sentences.shift();
-    while (beginning.length < 200) {
-      beginning += sentences.shift() + sentences.shift();
-    }
-
-    beginning += '...';
-    return beginning;
-  });
+  config.addPlugin(description);
 
   config.addFilter('readingTime', templateContent =>
     Math.ceil(readingTime(templateContent).minutes),
