@@ -2,7 +2,6 @@ const description = require('eleventy-plugin-description');
 const readingTime = require('reading-time');
 
 module.exports = function(config) {
-  config.addPassthroughCopy('css');
   config.addPassthroughCopy('fonts');
   config.addPassthroughCopy('img');
 
