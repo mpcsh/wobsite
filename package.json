@@ -1,5 +1,8 @@
 {
   "name": "wobsite",
+  "description": "wobsite",
+  "repository": "https://github.com/mpcsh/wobsite",
+  "license": "SEE LICENSE IN LICENSE.md",
   "scripts": {
     "serve": "SHOW_DRAFTS=true npx @11ty/eleventy --serve",
     "publish": "rm -rf _site/ && npx @11ty/eleventy && now --prod deploy _site/ -n wobsite"
