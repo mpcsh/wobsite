@@ -5,14 +5,6 @@ module.exports = function(config) {
   config.addPassthroughCopy('src/fonts');
   config.addPassthroughCopy('src/img');
 
-  config.addCollection('blogMaybeWithDrafts', collection => {
-    let posts = collection.getFilteredByTag('blog');
-    if (process.env.SHOW_DRAFTS !== 'true') {
-      return posts.filter(post => !post.data.draft);
-    }
-    return posts;
-  });
-
   config.addFilter('dateFormat', date =>
     new Intl.DateTimeFormat('en-US', {
       year: 'numeric',

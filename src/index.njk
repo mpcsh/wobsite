@@ -9,13 +9,10 @@ title: "mpcsh"
 </div>
 
 <div class="posts">
-  {% for post in collections.blogMaybeWithDrafts | reverse %}
+  {% for post in collections.blog | reverse %}
     <a href="{{ post.url }}">
       <div class="post-summary">
         <div class="title">
-          {% if post.data.draft %}
-            DRAFT - 
-          {% endif %}
           {{ post.data.title }}
         </div>
         <div class="date">{{ post.data.date | dateFormat }}</div>
