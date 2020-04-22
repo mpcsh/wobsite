@@ -205,6 +205,10 @@ blockquote {
   font-size: 16px;
 }
 
+#license {
+  font-size: 14px;
+}
+
 @media screen and (max-width: 450px) {
   .post-summary {
     display: grid;
