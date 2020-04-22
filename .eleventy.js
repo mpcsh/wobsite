@@ -2,8 +2,8 @@ const description = require('eleventy-plugin-description');
 const readingTime = require('reading-time');
 
 module.exports = function(config) {
-  config.addPassthroughCopy('fonts');
-  config.addPassthroughCopy('img');
+  config.addPassthroughCopy('src/fonts');
+  config.addPassthroughCopy('src/img');
 
   config.addCollection('blogMaybeWithDrafts', collection => {
     let posts = collection.getFilteredByTag('blog');
@@ -27,4 +27,11 @@ module.exports = function(config) {
   config.addFilter('readingTime', templateContent =>
     Math.ceil(readingTime(templateContent).minutes),
   );
+
+  return {
+    dir: {
+      input: "src",
+      output: "build"
+    }
+  };
 };
