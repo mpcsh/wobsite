@@ -4,7 +4,7 @@
   "repository": "https://github.com/mpcsh/wobsite",
   "license": "SEE LICENSE IN LICENSE.md",
   "scripts": {
-    "serve": "npx @11ty/eleventy --serve"
+    "serve": "./node_modules/.bin/eleventy --serve"
   },
   "dependencies": {
     "@11ty/eleventy": "^0.10.0",
