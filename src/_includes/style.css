@@ -86,11 +86,6 @@ a:visited {
   color: var(--blue);
 }
 
-a:active,
-a:focus {
-  outline: 0;
-}
-
 pre,
 code {
   border: 1px solid transparent;
@@ -141,11 +136,6 @@ blockquote {
   color: var(--blue);
 }
 
-.nav a:active,
-.nav a:focus {
-  outline: 0;
-}
-
 /* frontpage title */
 .meta {
   text-align: center;
@@ -164,11 +154,6 @@ blockquote {
 
 .posts a:hover {
   color: var(--blue);
-}
-
-.posts a:active,
-.posts a:focus {
-  outline: 0;
 }
 
 .post-summary {
