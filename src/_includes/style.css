@@ -16,20 +16,8 @@
 }
 
 @font-face {
-  font-family: Iosevka;
-  src: url(/fonts/iosevka/iosevka-term-regular.woff);
-}
-
-@font-face {
-  font-family: Iosevka;
-  font-style: italic;
-  src: url(/fonts/iosevka/iosevka-term-italic.woff);
-}
-
-@font-face {
-  font-family: Iosevka;
-  font-weight: 700;
-  src: url(/fonts/iosevka/iosevka-term-bold.woff);
+  font-family: Cascadia Code PL;
+  src: url(/fonts/cascadia/cascadia-code-pl.woff2);
 }
 
 :root {
@@ -103,7 +91,7 @@ pre {
 }
 
 code {
-  font-family: Iosevka, monospace;
+  font-family: "Cascadia Code PL", monospace;
   font-size: 18px;
 }
 
