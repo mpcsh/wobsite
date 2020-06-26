@@ -1,11 +1,11 @@
 ---
 layout: "base"
-title: "About"
+title: "mpcsh"
 ---
 
-# About
+# Hi, I'm Mark.
 
-Hi, I'm Mark. I'm an engineer primarily interested in programming language design and implementation.
+I'm an engineer primarily interested in programming language design and implementation.
 
 I currently work at [Braintree](https://braintreepayments.com). I'm also a delegate to [TC39](https://tc39.es), where I'm currently co-championing the [pattern matching proposal](https://github.com/tc39/proposal-pattern-matching).
 

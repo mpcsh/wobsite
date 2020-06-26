@@ -120,21 +120,15 @@ blockquote {
   margin-right: 4px;
 }
 
+.nav a::before {
+  content: "» ";
+}
+
 .nav a:hover {
   color: var(--blue);
 }
 
-/* frontpage title */
-.meta {
-  text-align: center;
-  margin-bottom: 48px;
-}
-
-.meta h2 {
-  margin-top: 12px;
-}
-
-/* frontpage index */
+/* blog index */
 .posts a {
   color: var(--fg);
   text-decoration: none;

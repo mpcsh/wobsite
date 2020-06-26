@@ -12,5 +12,3 @@ If you'd like to chat, I'm reachable via:
 You can find my open-source work and personal projects on [GitHub](https://github.com/mpcsh).
 
 I keep monthly playlists on [Spotify](https://open.spotify.com/user/e8yylicycxba6487r7jbyotbo?si=wEo1wvS1SsaObFezR8DwJA). I post garbage on [Twitter](https://twitter.com/LamdaCalrissian), and I'm also sometimes on [Lobsters](https://lobste.rs/u/mpcsh).
-
-If you'd like a copy of my resume, I'm happy to send it to you! I don't love the idea of posting it publicly, so please reach out to request it. Rest assured, it contains some truly tantalizing information.
