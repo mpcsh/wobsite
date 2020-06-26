@@ -13,4 +13,4 @@ I currently work at [Braintree](https://braintreepayments.com). I'm also a deleg
 
 I live to ski, specifically in the backcountry. Above: a photo of me atop a sketchy bootpack in Utah.
 
-I studied Computer Science at UChicago. There, I did some fun things for [Uncommon Hacks](https://uncommonhacks.com), religiously attended Hack Night, worked a bunch as a TA, and wrote a [thesis on programming language design](https://github.com/mpcsh/ForML), advised by [Adam Shaw](http://people.cs.uchicago.edu/~adamshaw).
+I studied Computer Science at UChicago. There, I did some fun things for [Uncommon Hacks](https://uncommonhacks.com), religiously attended Hack Night, worked a bunch as a TA, and wrote a [thesis on programming language design](https://github.com/mpcsh/ForML).
