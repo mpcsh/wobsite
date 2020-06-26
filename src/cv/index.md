@@ -1,6 +1,6 @@
 ---
 layout: "base"
-title: "Resume"
+title: "CV"
 ---
 
 # Mark Cohen
