@@ -24,13 +24,13 @@ I have cultivated a healthy formal rigor that allows me to efficiently analyze a
 ### Ecma TC39 - Delegate
 *October 2019 - Present*
 
-I am currently serving on the champions group for the [pattern matching proposal](https://github.com/tc39/proposal-pattern-matching), where I am designing the feature's syntax and semantics as well as drafting its specification text. I recently conducted a stage 3 review of the [`Intl.Segmenter` proposal](https://github.com/tc39/proposal-intl-segmenter) by [implementing](https://github.com/mpcsh/proposal-intl-segmenter-review) the specification text from scratch. I have received consistent and widespread gratitude from other delegates and committee chairs for elevating the quality of plenary notes.
+I am currently serving on the champions group for the [pattern matching proposal](https://github.com/tc39/proposal-pattern-matching), where I am designing the feature's syntax and semantics as well as drafting its specification text. I recently conducted a stage 3 review of the [`Intl.Segmenter` proposal](https://github.com/tc39/proposal-intl-segmenter) by [implementing](https://github.com/mpcsh/proposal-intl-segmenter-review) the specification text from scratch, which will soon become a polyfill. I have received consistent and widespread gratitude from other delegates and committee chairs for elevating the quality of plenary notes.
 
 
 ### PayPal - Software Engineer - Checkout Integrations
 *August 2020 - Present*
 
-*Coming soon!*
+I am working on a React component library to improve the ease of integrating with PayPal's smart payment buttons in React apps. I am also working on adding Apple Pay to the PayPal JavaScript SDK.
 
 
 ### Braintree - Software Engineer - Team Panels
