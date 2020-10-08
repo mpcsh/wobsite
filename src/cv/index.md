@@ -44,7 +44,7 @@ I implemented a continuous delivery process for the new merchant control panel, 
 ### University of Chicago - Bachelors Thesis
 *January 2019 - June 2019*
 
-I built a typeclass-based [programming language](https://github.com/mpcsh/ForML) with the goal of combining the ergonomics of imperative-style iteration with type safety and functional purity. The work culminated in a [formal analysis of the language](https://github.com/mpcsh/ForML/blob/main/paper.pdf) and a [proof-of-concept interpreter](https://github.com/mpcsh/ForML/tree/main/compiler), and was [presented to an audience](https://www.youtube.com/watch?v=n8rnVjCZ570) of Department of Computer Science students and professors.
+I built a type-sound, purely functional [programming language](https://github.com/mpcsh/ForML) capable of imperative-style iteration, through the use of type classes and associated types. The work culminated in a [formal analysis of the language](https://github.com/mpcsh/ForML/blob/main/paper.pdf) and a [proof-of-concept interpreter](https://github.com/mpcsh/ForML/tree/main/compiler), and was [presented to an audience](https://www.youtube.com/watch?v=n8rnVjCZ570) of Department of Computer Science students and professors. I also discovered and rectified an incompleteness in the type inference algorithm in Wadler & Blott's seminal presentation of type classes.
 
 *Advisor: [Adam Shaw](http://people.cs.uchicago.edu/~adamshaw)*
 
