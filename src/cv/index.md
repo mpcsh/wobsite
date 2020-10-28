@@ -12,7 +12,7 @@ I firmly believe that it is impossible for technology to be neutral or apolitica
 
 
 ## Skills
-I approach every endeavor with compassion and trust. Understanding and focusing on these emotional states allows me be a better teammate and deliver better work.
+I approach every endeavor with compassion and trust. Understanding and focusing on these emotional states allows me to be a better teammate and deliver better work.
 
 I am a natural collaborator. I excel in group environments, and I endeavor to improve the space for other participants. This pays dividends not just in engineering contexts, but also in contexts of advocacy and allyship.
 
@@ -41,7 +41,7 @@ I designed and built a React component library and accompanying Redux flow for i
 I implemented a continuous delivery process for the new merchant control panel, as well as the other invisible applications owned by the team. I built a type-safe data model for the new frontend disputes view, and in the process uncovered deeper inconsistencies in adjacent models. I led an effort to scrub our documentation of racist `whitelist / blacklist` terminology.
 
 
-### University of Chicago - Bachelors Thesis
+### University of Chicago - Bachelor's Thesis
 *January 2019 - June 2019*
 
 I built a type-sound, purely functional [programming language](https://github.com/mpcsh/ForML) capable of imperative-style iteration, through the use of type classes and associated types. The work culminated in a [formal analysis of the language](https://github.com/mpcsh/ForML/blob/main/paper.pdf) and a [proof-of-concept interpreter](https://github.com/mpcsh/ForML/tree/main/compiler), and was [presented to an audience](https://www.youtube.com/watch?v=n8rnVjCZ570) of Department of Computer Science students and professors. I also discovered and rectified an incompleteness in the type inference algorithm in Wadler & Blott's seminal presentation of type classes.
@@ -65,7 +65,7 @@ I wrote a [standard implementation](https://github.com/keybase/node-saltpack) of
 
 ## Education
 
-I graduated from the University of Chicago in June 2019 with a Bachelors degree in Computer Science. Below is a selection of particularly important courses that I took during my time there.
+I graduated from the University of Chicago in June 2019 with a bachelor's degree in Computer Science. Below is a selection of particularly important courses that I took during my time there.
 - Programming Languages: I implemented a series of successively more complex interpreters for small programming languages, and studied the fundamentals of language theory and type theory. At my own direction, I engaged in deeper self-study on parser implementation.
 - Networks: I deeply studied the theory and implementation of the data link, network, and transport layers of the Internet. I implemented an IRC server, a TCP client, and a virtual IPv4 router - each straight from IETF specifications - with a classmate partner.
 - Cryptography: I studied the mathematical foundations of modern cryptographic algorithms and their security guarantees, and implemented several major cryptographic attacks.
