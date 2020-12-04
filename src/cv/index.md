@@ -14,7 +14,7 @@ I firmly believe that it is impossible for technology to be neutral or apolitica
 ## Skills
 I approach every endeavor with compassion and trust. Understanding and focusing on these emotional states allows me to be a better teammate and deliver better work.
 
-I am a natural collaborator. I excel in group environments, and I endeavor to improve the space for other participants. This pays dividends not just in engineering contexts, but also in contexts of advocacy and allyship.
+I am a natural collaborator. I excel in group environments, and I work to improve the space for other participants. This pays dividends not just in engineering contexts, but also in contexts of advocacy and allyship.
 
 I have cultivated a healthy formal rigor that allows me to efficiently analyze and correctly model complex systems. While very powerful, this perspective must be tempered with pragmatism, and I constantly strive to strike this balance.
 
