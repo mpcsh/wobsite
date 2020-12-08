@@ -13,7 +13,7 @@ I'm a delegate to [TC39](https://tc39.es), where I'm currently co-championing th
 
 I live for ski mountaineering. I also live for music - I'm a guitarist and singer. I keep monthly playlists on [Spotify](https://open.spotify.com/user/e8yylicycxba6487r7jbyotbo?si=wEo1wvS1SsaObFezR8DwJA), if you want to check out what I'm listening to.
 
-I post garbage on [Twitter](https://twitter.com/mpcsh_), and I'm occasionally on [Lobsters](https://lobste.rs/u/mpcsh). You can find my open-source work and personal projects on [GitHub](https://github.com/mpcsh).
+I post garbage on [Twitter](https://twitter.com/mpcsh_). You can find my open-source work and personal projects on [GitHub](https://github.com/mpcsh).
 
 If you'd like to chat, I'm reachable via:
 - Email: `$ echo bUBtcGMuc2gK | base64 --decode`
