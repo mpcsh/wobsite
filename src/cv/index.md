@@ -24,7 +24,7 @@ I have cultivated a healthy formal rigor that allows me to efficiently analyze a
 ### Ecma TC39 - Delegate
 *October 2019 - Present*
 
-I am currently serving on the champions group for the [pattern matching proposal](https://github.com/tc39/proposal-pattern-matching), where I am designing the feature's syntax and semantics as well as drafting its specification text. I recently conducted a stage 3 review of the [`Intl.Segmenter` proposal](https://github.com/tc39/proposal-intl-segmenter) by [implementing](https://github.com/mpcsh/proposal-intl-segmenter-review) the specification text from scratch, which will soon become a polyfill. I have received consistent and widespread gratitude from other delegates and committee chairs for elevating the quality of plenary notes.
+I am currently serving as a co-champion for the [pattern matching proposal](https://github.com/tc39/proposal-pattern-matching), where I am designing the proposal's syntax and semantics as well as drafting its specification text. I have received consistent and widespread gratitude from other delegates and committee chairs for elevating the quality of plenary notes.
 
 
 ### Slack - Software Engineer - Desktop Foundations
