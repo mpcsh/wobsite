@@ -202,3 +202,29 @@ blockquote {
     padding-left: 6px;
   }
 }
+
+img {
+  height: auto;
+  width: auto;
+  max-height: 75vh;
+  margin: 0 auto;
+  display: block;
+  border-radius: 4px;
+}
+
+.youtube {
+  position: relative;
+  padding-bottom: calc(100% * 9 / 16);
+}
+
+.vertical {
+  padding-bottom: min(calc(100% * 16 / 9), 75vh);
+}
+
+.youtube iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

@@ -1,6 +1,7 @@
 ---
 title: "Push Notifications Considered Harmful"
 date: 2018-05-14
+archived: true
 ---
 
 Over the past year I've noticed some rather alarming trends about myself. My ability to do focused work has declined sharply, and my attention seems to wander more with every passing day. I constantly feel like I need to be running somewhere, like every moment something new is vying for my attention. I've tried all manner of task management systems, mindfulness techniques, and exercise regiments; all of these changes have been positive for my well-being, but none of them have addressed the core problem. With careful thought and observation, I've determined that the root of these feelings is a lack of control over my own attention, brought about by the incessant barrage of push notifications that I subject myself to every moment of every day.

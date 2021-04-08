@@ -1,6 +1,7 @@
 ---
 title: "An Ode to the Best Mobile Audio Setup Ever"
 date: 2019-10-03
+archived: true
 ---
 
 I recently became aware that not everyone has the luxury of absolute dead silence when listening to music out in the world. I'm an incorrigible audiophile; I realized I've spoiled myself in this regard for a very long time, and had begun to take it for granted.
