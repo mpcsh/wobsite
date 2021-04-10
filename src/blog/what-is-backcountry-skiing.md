@@ -3,11 +3,19 @@ title: "What is backcountry skiing?"
 date: 2021-03-09
 ---
 
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@mpcsh_">
+<meta name="twitter:creator" content="@mpcsh_">
+<meta name="twitter:title" content="What is backcountry skiing?">
+<meta name="twitter:description" content="If you've ever talked to me for more than a minute, you've likely heard me talk about the main passion in my life: backcountry skiing. If you've ever wondered what it is, why I do it, and how I move in the mountains, then this is the post for you!">
+<meta name="twitter:image" content="https://mpc.sh/img/time-to-ski.jpg">
+<meta name="twitter:image:alt" content="Yours truly, geared up to ski, standing among a field of sparse barren trees and snow">
+
 *Author's note: this began as a Twitter thread that [spiraled out of control](https://twitter.com/mpcsh_/status/1369414773142659079) - if it's written a little strangely, that's why.*
 
 If you've ever talked to me for more than a minute, you've likely heard me talk about the main passion in my life: backcountry skiing. If you've ever wondered what it is, why I do it, and how I move in the mountains, then this is the post for you!
 
-![Yours truly, geared up to ski, standing among a field of sparse barren trees and snow](/img/time-to-ski.png)
+![Yours truly, geared up to ski, standing among a field of sparse barren trees and snow](https://mpc.sh/img/time-to-ski.jpg)
 
 Some - perhaps many - of you are likely familiar with resort skiing. You go to a ski area with a bunch of lifts and a bunch of designated trails. You ride the lift, ski down, and repeat. Depending on the resort you can get a dozen or more laps in throughout the day. Ski patrol does a ton of work to make sure everyone's safe.
 
