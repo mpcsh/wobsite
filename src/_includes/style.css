@@ -207,6 +207,7 @@ img {
   height: auto;
   width: auto;
   max-height: 75vh;
+  max-width: 100%;
   margin: 0 auto;
   display: block;
   border-radius: 4px;
