@@ -1,0 +1,14 @@
+h1, h2, h3 {
+	transition: background-color 0.25s, color 0.25s;
+	display: block;
+	width: calc(100% + 6px);
+	transform: translateX(-6px);
+	padding: 6px 0px 6px 6px;
+	border-radius: 2px;
+}
+
+section:hover > h1, section:hover > h2, section:hover > h3 {
+	background-color: var(--fg-accent);
+	color: var(--bg);
+	transition: background-color 0.5s, color 0.5s;
+}

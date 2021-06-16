@@ -1,40 +1,66 @@
 @font-face {
-  font-family: Spectral;
+  font-family: "Spectral";
   src: url(/fonts/spectral/spectral-regular.woff);
 }
 
 @font-face {
-  font-family: Spectral;
+  font-family: "Spectral";
   font-style: italic;
   src: url(/fonts/spectral/spectral-italic.woff);
 }
 
 @font-face {
-  font-family: Spectral;
+  font-family: "Spectral";
   font-weight: 700;
   src: url(/fonts/spectral/spectral-bold.woff);
 }
 
 @font-face {
-  font-family: Cascadia Code PL;
+  font-family: "Domaine Sans Text";
+  src: url(/fonts/domaine/domaine-sans-text-regular.otf);
+}
+
+@font-face {
+  font-family: "Domaine Sans Text";
+  font-style: italic;
+  src: url(/fonts/spectral/domaine-sans-text-italic.otf);
+}
+
+@font-face {
+  font-family: "Domaine Sans Text";
+  font-weight: 700;
+  src: url(/fonts/spectral/domaine-sans-text-bold.otf);
+}
+
+@font-face {
+  font-family: "Cascadia Code PL";
   src: url(/fonts/cascadia/cascadia-code-pl.woff2);
 }
 
+@font-face {
+  font-family: "VCR OSD Mono";
+  src: url(/fonts/vcr-osd-mono.ttf);
+}
+
 :root {
-  --fg: #555555;
+  --fg: #51325c;
+  /* --fg-accent: #df74a2; */
+  --fg-accent: #e8529f;
   --fg-faint: #cccccc;
-  --bg: #fafafa;
-  --bg-faint: #eeeeee;
-  --blue: #5e81ac;
+  --bg: #f0e7fe;
+  --bg-faint: #d9d1e6;
+  --blue: #4364dc;
+  --light-blue: #5b7aeb;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --fg: #dddddd;
+    --fg: #f0e7fe;
+    --fg-accent: #ff77bd;
     --fg-faint: #d1d1d1;
-    --bg: #333333;
-    --bg-faint: #3f3f3f;
-    --blue: #81a1c1;
+    --bg: #3c2445;
+    --bg-faint: #603072;
+    --blue: #829dff;
   }
 }
 
@@ -46,8 +72,9 @@ body {
   color: var(--fg);
   background-color: var(--bg);
   padding: 0px 10px;
-  font-family: Spectral, serif;
+  font-family: "Domaine Sans Text";
 }
+
 
 h1,
 h2,
@@ -55,6 +82,9 @@ h3 {
   line-height: 1.2;
   margin-top: 48px;
   margin-bottom: 0px;
+  font-family: "VCR OSD Mono";
+  text-transform: uppercase;
+  color: var(--fg-accent);
 }
 
 h1 {
@@ -72,6 +102,12 @@ h3 {
 a,
 a:visited {
   color: var(--blue);
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: var(--light-blue);
+  transition: color 0.2s;
 }
 
 pre,
@@ -110,32 +146,34 @@ blockquote {
 /* top nav */
 .nav {
   text-align: right;
-  font-size: 16px;
 }
 
 .nav a {
   color: var(--fg);
-  text-decoration: none;
-  margin-left: 4px;
-  margin-right: 4px;
-}
-
-.nav a::before {
-  content: "» ";
+  transition: color 0.2s, background-color 0.2s;
+  text-transform: uppercase;
+  font-family: 'VCR OSD Mono';
+  padding: 4px;
 }
 
 .nav a:hover {
-  color: var(--blue);
+  color: var(--bg);
+  background-color: var(--fg);
+  transition: color 0.2s, background-color 0.2s;
 }
 
 /* blog index */
 .posts a {
   color: var(--fg);
+  background-color: var(--bg-faint);
+  transition: color 0.2s, background-color 0.2s;
   text-decoration: none;
 }
 
 .posts a:hover {
   color: var(--blue);
+  background-color: var(--bg-faint);
+  transition: color 0.2s, background-color 0.2s;
 }
 
 .post-summary {
@@ -152,6 +190,9 @@ blockquote {
 .post-summary .title {
   grid-area: title;
   font-size: 24px;
+  font-family: "VCR OSD Mono";
+  text-transform: uppercase;
+  color: var(--fg-accent);
 }
 
 .post-summary .date {
