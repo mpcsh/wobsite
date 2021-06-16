@@ -1,5 +1,5 @@
 ---
-layout: "base"
+layout: "cv"
 title: "CV"
 ---
 
@@ -7,9 +7,15 @@ title: "CV"
 I'm a generalist software engineer with particular expertise in web development and language standards.
 
 
+<section>
+
 ## Ethics
 I firmly believe that it is impossible for technology to be neutral or apolitical; the conditions of society and of the workplace are written into the systems we build and the ways we interact. As an engineer, it is my responsibility to ensure that the systems I build cannot be weaponized to do harm. Similarly, it is incumbent on me to actively uplift those whom the status quo marginalizes and oppresses, be they coworkers or users. These principles are inviolable and take absolute precedence in all cases.
 
+</section>
+
+
+<section>
 
 ## Skills
 I approach every endeavor with compassion and trust. Understanding and focusing on these emotional states allows me to be a better teammate and deliver better work.
@@ -18,33 +24,52 @@ I am a natural collaborator. I excel in pair and group environments, and I work 
 
 I have cultivated a healthy formal rigor that allows me to efficiently analyze and correctly model complex systems. While very powerful, this perspective must be tempered with pragmatism, and I constantly strive to strike that balance.
 
+</section>
+
 
 ## Open-source
+
+<section>
 
 ### Ecma TC39
 *October 2019 - Present*
 
 I currently serve as a co-champion for the [pattern matching proposal](https://github.com/tc39/proposal-pattern-matching), designing the proposal's syntax, semantics, and formal specification. I helped found and currently facilitate the [inclusion group](https://github.com/tc39/inclusion-group), which works to create a more inclusive committee environment.
 
+</section>
+
+
+<section>
 
 ### Self-Defined
 *April 2021 - Present*
 
 I currently serve as a community leader for [Self-Defined](https://selfdefined.app), where I help with community moderation and organization. I'm also driving the project's architecture forward, so that it can evolve beyond a static website into a more interactive source.
 
+</section>
+
+
+<section>
 
 ### Miscellaneous
 
 I've landed small patches in [WebKit](https://bugs.webkit.org/show_bug.cgi?id=217879) and [jsparagus](https://github.com/mozilla-spidermonkey/jsparagus/pull/564). Both of these were part of an ongoing effort to learn about the current state of the various JavaScript engines in the world.
 
+</section>
 
 ## Experience
+
+<section>
 
 ### Slack
 *January 2021 - Present*
 
 I work on the Desktop Foundations team - in the layer between [Electron](https://electronjs.org) and the web - primarily focused on improving the performance and security of the Slack desktop app. I'm currently working on a project to re-evaluate our transpilation and bundling strategies from a performance perspective.
 
+</section>
+
+
+<section>
 
 ### Braintree / PayPal
 *June - August 2018 (Intern), August 2019 - December 2020 (Full-time)*
@@ -59,6 +84,10 @@ I led an effort to scrub our documentation of racist `whitelist / blacklist` ter
 
 At PayPal, I worked on a React component library to improve the ease of integrating with PayPal's smart payment buttons in React apps. I also worked on adding Apple Pay to the PayPal JavaScript SDK.
 
+</section>
+
+
+<section>
 
 ### University of Chicago - Bachelor's Thesis
 *January - June 2019*
@@ -67,6 +96,10 @@ I built a type-sound, purely functional [programming language](https://github.co
 
 *Advisor: [Adam Shaw](http://people.cs.uchicago.edu/~adamshaw)*
 
+</section>
+
+
+<section>
 
 ### University of Chicago - Teaching Assistant
 *January 2018 - June 2019*
@@ -75,12 +108,20 @@ I served as a teaching assistant under [Borja Sotomayor](http://people.cs.uchica
 
 I also staffed two quarters of Networks and one quarter of Computer Science with Applications, where I held office hours for students, supervised undergraduate graders, and helped overhaul course projects.
 
+</section>
+
+
+<section>
 
 ### Keybase
 *June - September 2017 (Intern)*
 
 I wrote a [standard implementation](https://github.com/keybase/node-saltpack) of the [SaltPack 1.0](https://saltpack.org) message encryption format and associated libraries for [stream encoding](https://github.com/keybase/node-armor-x) and [stream chunking](https://github.com/keybase/node-chunk-stream).
 
+</section>
+
+
+<section>
 
 ## Education
 
@@ -90,3 +131,5 @@ I graduated from the University of Chicago in June 2019 with a BSc in Computer S
 - Cryptography: I studied the mathematical foundations of modern cryptographic algorithms and their security guarantees, and implemented several major cryptographic attacks.
 - Advanced Distributed Systems: I studied the theory behind the foundational distributed consensus and message-passing algorithms. I implemented [Raft](https://raft.github.io) from its specification with two classmates.
 - Usable Security & Privacy: I studied the principles of human-computer interaction and privacy in the context of application and system design. I completed an IRB-approved human subjects research study on the usability of cryptokey verification protocols in popular secure messaging apps with three classmates.
+
+</section>
