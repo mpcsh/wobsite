@@ -145,13 +145,13 @@ v ::= true
     | nv
 ```
 
-So, both boolean constants are values, as well as any **n**umeric **v**alue that is composed *only* of successors. We do this to avoid the ambiguity created by the fact that, say, `(succ (succ 0))` and `(pred (succ (succ (succ 0))))` are both valid representations of the number 3.
+So, both boolean constants are values, as well as any **n**umeric **v**alue that is composed *only* of successors. We do this to avoid the ambiguity created by the fact that, say, `(succ (succ 0))` and `(pred (succ (succ (succ 0))))` are both valid representations of the number 2.
 
 Two final pieces of vocabulary: a **normal form** is a term that cannot be stepped on. All values are normal forms, but so are things like `(succ true)`. That's what we call a **stuck term**; stuck terms are simply non-value normal forms. What's important to note is that stuck terms actually represent runtime errors: `(succ true)` is not a valid return value for any program, yet if we come across it, we have no choice but to return it; it's a runtime error.
 
 Let's now discuss each property of type soundness. Preservation tells us that terms cannot switch types on us in the course of evaluation; I think this is fairly intuitive. Progress tells us something very important: if a program passes the type checker, it evaluates to a *value*. Not a normal form, a *value*. This is extraordinarily significant: it means that any program that passes the typechecker is **free of runtime errors** (except logic errors like multiplying by 5 when you meant to add 5, etc).
 
-This is a massive boon to the programmer. Think back, when have you ever worked in an environment like this? I know when I work in JavaScript, I have about 2% faith that any given piece of code I write will work as intended on the first run. In a language with a proven type soundness theorem, that percentage skyrockets, because most errors I make will be caught by the typechecker. As far as I know, [Standard ML](https://www.smlnj.org/) and [Pony](https://www.ponylang.org/) are the only quote-unquote "real" languages with proven type soundness theorems.
+This is a massive boon to the programmer. Think back, when have you ever worked in an environment like this? I know when I work in JavaScript, I have about 2% faith that any given piece of code I write will work as intended on the first run. In a language with a proven type soundness theorem, that percentage skyrockets, because most errors I make will be caught by the typechecker. As far as I know, [Standard ML](https://www.smlnj.org/) and [Pony](https://www.ponylang.org/) are the only "real" languages with proven type soundness theorems.
 
 ## The evaluator
 The **evaluator**, the final step in our pipeline, is where the proverbial action happens. It takes as input an AST, and returns another AST, representing the result of evaluating its input.
