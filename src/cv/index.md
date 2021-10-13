@@ -62,9 +62,9 @@ I've landed small patches in [WebKit](https://bugs.webkit.org/show_bug.cgi?id=21
 <section>
 
 ### Slack
-*January 2021 - Present*
+*January 2021 - September 2021*
 
-I work on the Desktop Foundations team - in the layer between [Electron](https://electronjs.org) and the web - primarily focused on improving the performance and security of the Slack desktop app. I'm currently working on a project to re-evaluate our transpilation and bundling strategies from a performance perspective.
+I worked on the Desktop Foundations team, in the layer between [Electron](https://electronjs.org) and the web. I overhauled our handling of user preferences in the name of robustness and security, and built out new features to handle external configuration. I addressed cross-cutting security concerns from the desktop app, and resolved long-standing inconsistencies and technical debt.
 
 </section>
 
