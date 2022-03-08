@@ -1,9 +1,9 @@
 {
-  "redirects": [
-    {
-      "source": "/ski-video",
-      "destination": "https://www.youtube.com/watch?v=bRhmYDXIHDE",
-      "permanent": true
-    }
-  ]
+	"redirects": [
+		{
+			"source": "/ski-video",
+			"destination": "https://www.youtube.com/watch?v=bRhmYDXIHDE",
+			"permanent": true
+		}
+	]
 }

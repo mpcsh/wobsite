@@ -1,14 +1,15 @@
 {
-  "name": "wobsite",
-  "description": "wobsite",
-  "repository": "https://github.com/mpcsh/wobsite",
-  "license": "SEE LICENSE IN LICENSE.md",
-  "scripts": {
-    "serve": "./node_modules/.bin/eleventy --serve"
-  },
-  "dependencies": {
-    "@11ty/eleventy": "^1.0.0",
-    "eleventy-plugin-description": "^0.1.3",
-    "reading-time": "^1.5.0"
-  }
+	"name": "wobsite",
+	"description": "wobsite",
+	"repository": "https://github.com/mpcsh/wobsite",
+	"license": "SEE LICENSE IN LICENSE.md",
+	"scripts": {
+		"serve": "./node_modules/.bin/eleventy --serve"
+	},
+	"dependencies": {
+		"@11ty/eleventy": "^1.0.0",
+		"eleventy-plugin-description": "^0.1.3",
+		"prettier": "^2.5.1",
+		"reading-time": "^1.5.0"
+	}
 }
