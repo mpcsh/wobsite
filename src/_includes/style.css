@@ -1,257 +1,256 @@
 @font-face {
-  font-family: "Spectral";
-  src: url(/fonts/spectral/spectral-regular.woff);
+	font-family: "Spectral";
+	src: url(/fonts/spectral/spectral-regular.woff);
 }
 
 @font-face {
-  font-family: "Spectral";
-  font-style: italic;
-  src: url(/fonts/spectral/spectral-italic.woff);
+	font-family: "Spectral";
+	font-style: italic;
+	src: url(/fonts/spectral/spectral-italic.woff);
 }
 
 @font-face {
-  font-family: "Spectral";
-  font-weight: 700;
-  src: url(/fonts/spectral/spectral-bold.woff);
+	font-family: "Spectral";
+	font-weight: 700;
+	src: url(/fonts/spectral/spectral-bold.woff);
 }
 
 @font-face {
-  font-family: "Cascadia Code PL";
-  src: url(/fonts/cascadia/cascadia-code-pl.woff2);
+	font-family: "Cascadia Code PL";
+	src: url(/fonts/cascadia/cascadia-code-pl.woff2);
 }
 
 @font-face {
-  font-family: "VCR OSD Mono";
-  src: url(/fonts/vcr-osd/vcr-osd-mono.ttf);
+	font-family: "VCR OSD Mono";
+	src: url(/fonts/vcr-osd/vcr-osd-mono.ttf);
 }
 
 :root {
-  --fg: #51325c;
-  --fg-accent: #ad3d80;
-  --bg: #fff3fd;
-  --bg-faint: #f0dced;
-  --blue: #2043c2;
+	--fg: #51325c;
+	--fg-accent: #ad3d80;
+	--bg: #fff3fd;
+	--bg-faint: #f0dced;
+	--blue: #2043c2;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --fg: #f0e7fe;
-    --fg-accent: #ff77bd;
-    --bg: #2b1330;
-    --bg-faint: #4d2d54;
-    --blue: #a1bcff;
-  }
+	:root {
+		--fg: #f0e7fe;
+		--fg-accent: #ff77bd;
+		--bg: #2b1330;
+		--bg-faint: #4d2d54;
+		--blue: #a1bcff;
+	}
 }
 
 body {
-  margin: 40px auto;
-  max-width: 650px;
-  line-height: 1.6;
-  font-size: 20px;
-  color: var(--fg);
-  background-color: var(--bg);
-  padding: 0px 10px;
-  font-family: "Spectral";
+	margin: 40px auto;
+	max-width: 650px;
+	line-height: 1.6;
+	font-size: 20px;
+	color: var(--fg);
+	background-color: var(--bg);
+	padding: 0px 10px;
+	font-family: "Spectral";
 }
-
 
 h1,
 h2,
 h3 {
-  line-height: 1.2;
-  margin-top: 48px;
-  margin-bottom: 0px;
-  font-family: "VCR OSD Mono";
-  text-transform: uppercase;
-  color: var(--fg-accent);
+	line-height: 1.2;
+	margin-top: 48px;
+	margin-bottom: 0px;
+	font-family: "VCR OSD Mono";
+	text-transform: uppercase;
+	color: var(--fg-accent);
 }
 
 h1 {
-  font-size: 48px;
+	font-size: 48px;
 }
 
 h2 {
-  font-size: 32px;
+	font-size: 32px;
 }
 
 h3 {
-  font-size: 24px;
+	font-size: 24px;
 }
 
 a,
 a:visited {
-  color: var(--blue);
-  transition: background-color 0.25s, color 0.25s;
-  border-radius: 2px;
+	color: var(--blue);
+	transition: background-color 0.25s, color 0.25s;
+	border-radius: 2px;
 }
 
 a:hover,
 a:active {
-  color: var(--bg);
-  background-color: var(--blue);
-  transition: background-color 0.25s, color 0.25s;
+	color: var(--bg);
+	background-color: var(--blue);
+	transition: background-color 0.25s, color 0.25s;
 }
 
 pre,
 code {
-  border: 1px solid transparent;
-  border-radius: 4px;
-  background-color: var(--bg-faint);
+	border: 1px solid transparent;
+	border-radius: 4px;
+	background-color: var(--bg-faint);
 }
 
 pre {
-  padding-left: 4px;
-  padding-right: 4px;
+	padding-left: 4px;
+	padding-right: 4px;
 
-  overflow: auto;
-  word-wrap: normal;
-  white-space: pre;
+	overflow: auto;
+	word-wrap: normal;
+	white-space: pre;
 }
 
 code {
-  font-family: "Cascadia Code PL", monospace;
-  font-size: 18px;
+	font-family: "Cascadia Code PL", monospace;
+	font-size: 18px;
 }
 
 hr {
-  border-top: 2px solid var(--bg-faint);
-  border-bottom: 0;
+	border-top: 2px solid var(--bg-faint);
+	border-bottom: 0;
 }
 
 blockquote {
-  font-style: italic;
-  border-left: 4px solid var(--bg-faint);
-  margin-left: 4px;
-  padding-left: 24px;
+	font-style: italic;
+	border-left: 4px solid var(--bg-faint);
+	margin-left: 4px;
+	padding-left: 24px;
 }
 
 /* top nav */
 .nav {
-  text-align: right;
+	text-align: right;
 }
 
 .nav a {
-  color: var(--fg);
-  transition: color 0.2s, background-color 0.2s;
-  text-transform: uppercase;
-  font-family: 'VCR OSD Mono';
-  padding: 4px;
+	color: var(--fg);
+	transition: color 0.2s, background-color 0.2s;
+	text-transform: uppercase;
+	font-family: "VCR OSD Mono";
+	padding: 4px;
 }
 
 .nav a:hover,
 .nav a:active {
-  color: var(--bg);
-  background-color: var(--fg);
-  transition: color 0.2s, background-color 0.2s;
+	color: var(--bg);
+	background-color: var(--fg);
+	transition: color 0.2s, background-color 0.2s;
 }
 
 /* blog index */
 .posts a {
-  color: var(--fg);
-  text-decoration: none;
+	color: var(--fg);
+	text-decoration: none;
 }
 
 .posts a:hover,
 .posts a:active {
-  color: var(--blue);
+	color: var(--blue);
 }
 
 .posts a:hover .title,
 .posts a:active .title {
-  color: var(--blue);
+	color: var(--blue);
 }
 
 .post-summary {
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  grid-template-rows: auto;
-  grid-template-areas:
-    'title date'
-    'description minutes';
-  margin-top: 20px;
-  margin-bottom: 20px;
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-template-rows: auto;
+	grid-template-areas:
+		"title date"
+		"description minutes";
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .post-summary .title {
-  grid-area: title;
-  font-size: 24px;
-  font-family: "VCR OSD Mono";
-  text-transform: uppercase;
-  color: var(--fg-accent);
+	grid-area: title;
+	font-size: 24px;
+	font-family: "VCR OSD Mono";
+	text-transform: uppercase;
+	color: var(--fg-accent);
 }
 
 .post-summary .date {
-  grid-area: date;
-  text-align: right;
-  font-size: 16px;
-  align-self: center;
+	grid-area: date;
+	text-align: right;
+	font-size: 16px;
+	align-self: center;
 }
 
 .post-summary .description {
-  grid-area: description;
-  font-size: 16px;
+	grid-area: description;
+	font-size: 16px;
 }
 
 .post-summary .minutes {
-  grid-area: minutes;
-  text-align: right;
-  font-size: 16px;
+	grid-area: minutes;
+	text-align: right;
+	font-size: 16px;
 }
 
 #license {
-  font-size: 14px;
+	font-size: 14px;
 }
 
 @media screen and (max-width: 450px) {
-  .post-summary {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    grid-template-rows: auto;
-    grid-template-areas:
-      'title title'
-      'date minutes'
-      'description description';
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
+	.post-summary {
+		display: grid;
+		grid-template-columns: auto 1fr;
+		grid-template-rows: auto;
+		grid-template-areas:
+			"title title"
+			"date minutes"
+			"description description";
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
 
-  .post-summary .date {
-    text-align: left;
-    font-style: italic;
-    padding-right: 6px;
-    border-right: 2px solid var(--bg-faint);
-  }
+	.post-summary .date {
+		text-align: left;
+		font-style: italic;
+		padding-right: 6px;
+		border-right: 2px solid var(--bg-faint);
+	}
 
-  .post-summary .minutes {
-    text-align: left;
-    font-style: italic;
-    padding-left: 6px;
-  }
+	.post-summary .minutes {
+		text-align: left;
+		font-style: italic;
+		padding-left: 6px;
+	}
 }
 
 img {
-  height: auto;
-  width: auto;
-  max-height: 75vh;
-  max-width: 100%;
-  margin: 0 auto;
-  display: block;
-  border-radius: 4px;
+	height: auto;
+	width: auto;
+	max-height: 75vh;
+	max-width: 100%;
+	margin: 0 auto;
+	display: block;
+	border-radius: 4px;
 }
 
 .youtube {
-  position: relative;
-  padding-bottom: calc(100% * 9 / 16);
+	position: relative;
+	padding-bottom: calc(100% * 9 / 16);
 }
 
 .vertical {
-  padding-bottom: min(calc(100% * 16 / 9), 75vh);
+	padding-bottom: min(calc(100% * 16 / 9), 75vh);
 }
 
 .youtube iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
