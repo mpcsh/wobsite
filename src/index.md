@@ -11,7 +11,7 @@ I'm a delegate to [TC39](https://tc39.es), where I'm currently co-championing th
 
 ![Me, giving the shaka hand symbol and sticking my tongue out, with skis on my back and mountains in the background, taken immediately after a very sketchy bootpack in Utah](/img/profpic.png)
 
-I'm nonbinary. I'm happy with `he` or `they` for pronouns.
+I'm nonbinary. My pronouns are `they/them`.
 
 I live for ski mountaineering. I also live for music - I'm a guitarist and singer. I keep monthly playlists on [Spotify](https://open.spotify.com/user/e8yylicycxba6487r7jbyotbo?si=wEo1wvS1SsaObFezR8DwJA), if you want to check out what I'm listening to.
 
