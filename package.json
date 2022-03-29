@@ -8,8 +8,8 @@
 	},
 	"dependencies": {
 		"@11ty/eleventy": "^1.0.0",
-		"eleventy-plugin-description": "^0.1.3",
-		"prettier": "^2.5.1",
+		"eleventy-plugin-description": "^0.1.4",
+		"prettier": "^2.6.1",
 		"reading-time": "^1.5.0"
 	}
 }
