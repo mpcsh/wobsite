@@ -10,7 +10,7 @@ I'm an engineer primarily interested in programming language design and implemen
 I'm a delegate to [TC39](https://tc39.es), where I'm currently co-championing the
 [pattern matching proposal](https://github.com/tc39/proposal-pattern-matching).
 
-![Me, giving the shaka hand symbol and sticking my tongue out, with skis on my back and mountains in the background, taken immediately after a very sketchy bootpack in Utah](/img/profpic.png)
+![Portrait of me, smiling, wearing sunglasses and a gray shirt. There's some scrubland in the midground. The North side of Mount Shasta rises behind me.](/img/profpic-small.jpg)
 
 I'm nonbinary. My pronouns are `they/them`.
 
