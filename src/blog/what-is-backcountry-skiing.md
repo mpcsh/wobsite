@@ -13,7 +13,7 @@ date: 2021-03-09
 
 _Author's note: this began as a Twitter thread that [spiraled out of
 control](https://twitter.com/mpcsh_/status/1369414773142659079) - if it's written a little
-strangely, that's why.\_
+strangely, that's why._
 
 If you've ever talked to me for more than a minute, you've likely heard me talk about the main
 passion in my life: backcountry skiing. If you've ever wondered what it is, why I do it, and how I
