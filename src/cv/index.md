@@ -1,7 +1,11 @@
 ---
-layout: "cv"
+layout: "default"
 title: "CV"
 ---
+
+<style>
+	{% include "./cv.css" %}
+</style>
 
 # Mark Cohen
 

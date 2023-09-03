@@ -1,36 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<!-- unicode -->
-		<meta charset="utf-8">
-
-		<!-- this makes the site responsive -->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-
-		<!-- site description (for lighthouse SEO section) -->
-		<meta name="description" content="mpcsh is Mark Cohen">
-
-		<!-- article title -->
-		<title>{{ title }}</title>
-
-		<!-- sitewide css -->
+		{% include "head.njk" %}
 		<style>
-			{% include "style.css" %}
+			{% include "base.css" %}
 		</style>
-
-		<!-- disable the favicon -->
-		<link rel="icon" href="data:">
 	</head>
 
 	<body>
-
-	<div class="nav">
-		<a href="/">About</a>
-		<a href="/cv">CV</a>
-		<a href="/blog">Blog</a>
-	</div>
-
-	{{ content | safe }}
-
+		{{ content | safe }}
 	</body>
 </html>
