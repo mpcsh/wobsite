@@ -9,7 +9,7 @@
 	"dependencies": {
 		"@11ty/eleventy": "^2.0.1",
 		"eleventy-plugin-description": "^0.1.4",
-		"prettier": "^2.6.1",
+		"prettier": "^3.0.3",
 		"reading-time": "^1.5.0"
 	}
 }
