@@ -7,16 +7,16 @@ title: "Blog"
 <h1>Blog</h1>
 
 <div class="posts">
-  {% for post in collections.blog | reverse %}
-    <a href="{{ post.url }}">
-      <div class="post-summary">
-        <div class="title">
-          {{ post.data.title }}
-        </div>
-        <div class="date">{{ post.data.date | dateFormat }}</div>
-        <div class="description">{{ post.templateContent | description }}</div>
-        <div class="minutes">{{ post.templateContent | readingTime }} minute read</div>
-      </div>
-    </a>
-  {% endfor %}
+	{% for post in collections.blog | reverse %}
+		<a href="{{ post.url }}">
+			<div class="post-summary">
+				<div class="title">
+					{{ post.data.title }}
+				</div>
+				<div class="date">{{ post.data.date | dateFormat }}</div>
+				<div class="description">{{ post.templateContent | description }}</div>
+				<div class="minutes">{{ post.templateContent | readingTime }} minute read</div>
+			</div>
+		</a>
+	{% endfor %}
 </div>
