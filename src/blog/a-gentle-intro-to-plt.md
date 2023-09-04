@@ -18,7 +18,7 @@ transformations on that input to produce a final result. Both share many similar
 that a compiler **translates** the input code into code written in another language. For example, C
 compilers translate C code into assembly. Clojure and ClojureScript compile to JVM bytecode and
 JavaScript, respectively. In contrast, an interpreter directly **executes** the input code. Some
-popular interpreted languages are JavaScript, Python, and Ruby.
+popular interpreted languages are JavaScript and Ruby.
 
 In this post, we will be building an interpreter. At least for the purposes of a first-principles
 introduction, building an interpreter will be a simpler task, because we only have to keep one
@@ -45,14 +45,14 @@ t ::= true
 ```
 
 The grammar is defined recursively: you should read a `t` as "any term". For example, we can write
-things like `(succ (succ 0))`, but we can also write `(not (pred 0))`. This may seem unintuitive at
-first: why would we allow our language to express nonsensical things? The answer is that the cost of
-catching nonsensical expressions at the level of the grammar is far too high - we will instead rely
-on the typechecker to catch such terms.
+things like `(succ (succ 0))` (the number 2), but we can also write `(not (pred 0))`. This may seem
+unintuitive at first: why would we allow our language to express nonsensical things? The answer is
+that the cost of catching nonsensical expressions at the level of the grammar is far too high - we
+will instead rely on the typechecker to catch such terms.
 
 You may have also noticed that this is not a particularly powerful language. We can perform the
 basic boolean operations; we can take the `succ` (successor) and `pred` (predecessor) of only the
-natural numbers; and we have precisely one operation that can bridge across the two types (the `if`
+integers; and we have precisely one operation that can bridge across the two types (the `if`
 statement). This is deliberate and done for the sake of simplicity: many language features that we
 as programmers take for granted (e.g. variables and functions) turn out to be rather complex to
 implement.
@@ -93,7 +93,7 @@ simply to translate a `string` into something simpler to work with.
 
 Let's consider a few examples:
 
-- `true` should scan to `True`.
+- `true` should scan to `[True]`.
 - `(succ (succ 0))` should scan to `[LParen, Succ, LParen, Succ, Zero, RParen, RParen]`.
 - `(if (succ true) then 0 else false)` should scan to
   `[LParen, If, LParen, Succ, True, RParen, Then, Zero, Else, False, RParen]`.
@@ -130,7 +130,8 @@ argument. Knowing that `*` is the same as the Cartesian cross product, we can se
 
 Let's run through some parsing examples:
 
-- `pred 0)` should raise a parse error, as the program is missing an opening left parenthesis.
+- `pred 0)` should scan to `[Pred, Zero, RParen]`, which should then raise a parse error, as the
+  program is missing an opening left parenthesis.
 - `(succ (succ 0))` should scan to `[LParen, Succ, LParen, Succ, Zero, RParen, RParen]`, which
   should parse to `Succ (Succ Zero)`.
 - `(if true then 0 else false)` should scan to `[LParen, If, True, Then, Zero, Else, False]`, which
@@ -186,16 +187,8 @@ typechecking phase.
 Finally, note that the actual typechecking function need not return the type of the program: the
 interpreter doesn't care about the type of the program, it just cares that the program _can be_
 assigned a type. A common pattern is to have the typechecker return the original AST in the case
-that `typeof` succeeds, and to otherwise pass on any errors raised by `typeof`, like so:
-
-```
-fun typecheck t =
-let
-  val _ = typeof t
-in
-  t
-end
-```
+that `typeof` succeeds. This process of throwing away the result of `typeof` once it succeeds is
+called **type erasure**.
 
 ### Type soundness
 
