@@ -1,0 +1,205 @@
+html {
+	display: grid;
+	align-items: center;
+	justify-items: center;
+}
+
+body {
+	max-width: 650px;
+	margin: 40px auto;
+	padding: 0px 10px;
+
+	background-color: var(--bg);
+
+	font-family: "Spectral";
+	font-size: 20px;
+	line-height: 1.6;
+	color: var(--fg);
+}
+
+main {
+	box-sizing: border-box;
+}
+
+#nav {
+	grid-area: nav;
+	margin-bottom: 0.5em;
+}
+
+a,
+a:visited {
+	color: var(--blue);
+}
+
+p {
+	margin: 0.5em 0;
+	box-sizing: border-box;
+}
+
+code {
+	font-family: "Cascadia Code PL";
+	font-size: 13px;
+}
+
+.heading {
+	width: 100%;
+	font-weight: bold;
+	border-top: 2px solid var(--fg-faint);
+	border-bottom: 2px solid var(--fg-faint);
+	padding: 0.25rem 2px;
+	box-sizing: border-box;
+
+	font-family: "VCR OSD Mono";
+	font-size: 1.25em;
+	text-transform: uppercase;
+}
+
+#left .quick-info,
+#right .job {
+	margin-top: 3em;
+}
+
+#left section > .heading,
+#right section > .heading {
+	transition:
+		background-color 0.25s,
+		color 0.25s,
+		border-color 0.25s;
+}
+
+#left section:hover > .heading,
+#right section:hover > .heading {
+	background-color: var(--fg-accent);
+	color: var(--bg);
+	transition:
+		background-color 0.5s,
+		color 0.5s,
+		border-color 0.5s;
+	border-color: transparent;
+}
+
+#nameplate {
+	border: none;
+	margin-top: 0;
+	line-height: 1;
+
+	font-family: "VCR OSD Mono";
+	text-transform: uppercase;
+
+	display: grid;
+	grid-template-areas:
+		"firstname firstname"
+		"lastname pronouns";
+	align-items: baseline;
+	justify-items: start;
+}
+
+#nameplate #firstname {
+	font-size: 4em;
+	grid-area: firstname;
+}
+
+#nameplate #lastname {
+	font-size: 2em;
+	grid-area: lastname;
+}
+
+#nameplate #pronouns {
+	grid-area: pronouns;
+	justify-self: end;
+	font-size: 0.8em;
+}
+
+.job .heading {
+	display: grid;
+	grid-template-areas: "employer tenure";
+	align-items: baseline;
+	justify-items: start;
+}
+
+.job .heading .employer {
+	grid-area: employer;
+}
+
+.job .heading .tenure {
+	grid-area: tenure;
+	justify-self: end;
+	font-size: 0.75em;
+}
+
+@media print {
+	#nav {
+		display: none;
+	}
+
+	body {
+		max-width: none;
+		margin: 0;
+		padding: 0;
+		font-size: 12px;
+		line-height: calc(1 + 1 / 3);
+	}
+
+	main {
+		width: 8.5in;
+		height: 11in;
+		padding: 0.25in;
+		box-sizing: border-box;
+
+		display: grid;
+		grid-template-areas: "left right";
+		grid-template-columns: 1fr 2.3fr;
+		align-items: center;
+		justify-items: center;
+
+		overflow: scroll;
+	}
+
+	#left,
+	#right {
+		height: 100%;
+		border-radius: 3px;
+		padding: 0.5rem;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+		overflow: scroll;
+	}
+
+	#left {
+		grid-area: left;
+	}
+
+	#right {
+		grid-area: right;
+		background-color: var(--bg-faint);
+	}
+
+	#proficiencies {
+		line-height: calc(1 + 2 / 3);
+	}
+
+	#left .quick-info,
+	#right .job {
+		margin-top: 0.75em;
+	}
+
+	#right .job:first-child {
+		margin-top: 0;
+	}
+
+	p {
+		padding: 0 0.25rem;
+	}
+
+	.heading {
+		padding: 0.25rem;
+	}
+
+	@page {
+		size: 8.5in 11in;
+		margin: 0;
+	}
+}

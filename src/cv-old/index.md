@@ -48,7 +48,7 @@ constantly strive to strike that balance.
 
 ### Ecma TC39
 
-_October 2019 - Present_
+_September 2019 - Present_
 
 I currently serve as a co-champion for the
 [pattern matching proposal](https://github.com/tc39/proposal-pattern-matching), designing the
