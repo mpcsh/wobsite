@@ -26,11 +26,6 @@ main {
 	margin-bottom: 0.5em;
 }
 
-a,
-a:visited {
-	color: var(--blue);
-}
-
 p {
 	margin: 0.5em 0;
 	box-sizing: border-box;
