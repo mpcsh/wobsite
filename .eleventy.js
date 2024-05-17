@@ -14,7 +14,14 @@ module.exports = function (config) {
 		}).format(date),
 	);
 
-	config.addPlugin(description);
+	config.addPlugin(description, {
+		htmlToTextOptions: {
+			selectors: ["h1", "h2", "h3", "h4", "h5", "h6"].map((selector) => ({
+				selector,
+				format: "skip",
+			})),
+		},
+	});
 
 	config.addFilter("readingTime", (templateContent) =>
 		Math.ceil(readingTime(templateContent).minutes),
