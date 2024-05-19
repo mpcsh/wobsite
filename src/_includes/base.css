@@ -1,28 +1,51 @@
 @font-face {
+	font-family: "VCR OSD Mono";
+	font-display: swap;
+	src: url(/fonts/vcr-osd-mono.latin.woff2) format("woff2");
+}
+
+@font-face {
+	font-family: "VT323";
+	font-display: swap;
+	src: url(/fonts/vt323.latin.woff2) format("woff2");
+}
+
+@font-face {
 	font-family: "Spectral";
-	src: url(/fonts/spectral/spectral-regular.woff);
+	font-display: swap;
+	src: url(/fonts/spectral/spectral.latin.woff2) format("woff2");
 }
 
 @font-face {
 	font-family: "Spectral";
 	font-style: italic;
-	src: url(/fonts/spectral/spectral-italic.woff);
+	font-display: swap;
+	src: url(/fonts/spectral/spectral-italic.latin.woff2) format("woff2");
 }
 
 @font-face {
 	font-family: "Spectral";
 	font-weight: 700;
-	src: url(/fonts/spectral/spectral-bold.woff);
+	font-display: swap;
+	src: url(/fonts/spectral/spectral-bold.latin.woff2) format("woff2");
 }
 
 @font-face {
-	font-family: "Cascadia Code PL";
-	src: url(/fonts/cascadia/cascadia-code-pl.woff2);
+	font-family: "Cascadia Mono";
+	font-display: swap;
+	src: url(/fonts/cascadia-mono.latin.woff2) format("woff2");
 }
 
 @font-face {
-	font-family: "VCR OSD Mono";
-	src: url(/fonts/vcr-osd/vcr-osd-mono.ttf);
+	font-family: "M+ 1";
+	font-display: swap;
+	src: url("/fonts/m-plus-1.latin.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "M+ 1 Code";
+	font-display: swap;
+	src: url("/fonts/m-plus-1-code.latin.woff2") format("woff2");
 }
 
 :root {
@@ -32,6 +55,14 @@
 	--bg: hsl(310, 100%, 98%);
 	--bg-faint: hsl(310, 45%, 93%);
 	--blue: hsl(227, 72%, 44%);
+
+	--title-font-family: "VCR OSD Mono", serif;
+
+	--body-font-family: "Spectral", sans-serif;
+	--body-font-size: 20px;
+
+	--code-font-family: "M+ 1 Code", monospace;
+	--code-font-size: 17px;
 }
 
 @media (prefers-color-scheme: dark) {

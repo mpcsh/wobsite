@@ -1,23 +1,26 @@
 body {
-	margin: 40px auto;
-	max-width: 650px;
-	line-height: 1.6;
-	font-size: 20px;
-	color: var(--fg);
 	background-color: var(--bg);
+	max-width: 650px;
+	margin: 40px auto;
 	padding: 0px 10px;
-	font-family: "Spectral";
+
+	font-family: var(--body-font-family);
+	font-size: var(--body-font-size);
+	color: var(--fg);
+	line-height: 1.6;
 }
 
 h1,
 h2,
 h3 {
-	line-height: 1.2;
 	margin-top: 48px;
 	margin-bottom: 0px;
-	font-family: "VCR OSD Mono";
-	text-transform: uppercase;
+
+	font-family: var(--title-font-family);
+	font-weight: bold;
 	color: var(--fg-accent);
+	text-transform: uppercase;
+	line-height: 1.2;
 }
 
 h1 {
@@ -35,7 +38,9 @@ h3 {
 a,
 a:visited {
 	color: var(--blue);
-	transition: background-color 0.25s, color 0.25s;
+	transition:
+		background-color 0.25s,
+		color 0.25s;
 	border-radius: 2px;
 }
 
@@ -43,7 +48,9 @@ a:hover,
 a:active {
 	color: var(--bg);
 	background-color: var(--blue);
-	transition: background-color 0.25s, color 0.25s;
+	transition:
+		background-color 0.25s,
+		color 0.25s;
 }
 
 pre,
@@ -63,8 +70,8 @@ pre {
 }
 
 code {
-	font-family: "Cascadia Code PL", monospace;
-	font-size: 18px;
+	font-family: var(--code-font-family);
+	font-size: var(--code-font-size);
 }
 
 hr {
@@ -108,27 +115,31 @@ blockquote {
 
 .post-summary .title {
 	grid-area: title;
+
+	font-family: var(--title-font-family);
 	font-size: 24px;
-	font-family: "VCR OSD Mono";
-	text-transform: uppercase;
 	color: var(--fg-accent);
+	text-transform: uppercase;
 }
 
 .post-summary .date {
 	grid-area: date;
 	text-align: right;
-	font-size: 16px;
 	align-self: center;
+
+	font-size: 16px;
 }
 
 .post-summary .description {
 	grid-area: description;
+
 	font-size: 16px;
 }
 
 .post-summary .minutes {
 	grid-area: minutes;
 	text-align: right;
+
 	font-size: 16px;
 }
 
@@ -150,16 +161,18 @@ blockquote {
 	}
 
 	.post-summary .date {
-		text-align: left;
-		font-style: italic;
 		padding-right: 6px;
 		border-right: 2px solid var(--bg-faint);
+		text-align: left;
+
+		font-style: italic;
 	}
 
 	.post-summary .minutes {
 		text-align: left;
-		font-style: italic;
 		padding-left: 6px;
+
+		font-style: italic;
 	}
 }
 
@@ -178,7 +191,7 @@ img {
 	padding-bottom: calc(100% * 9 / 16);
 }
 
-.vertical {
+.youtube.vertical {
 	padding-bottom: min(calc(100% * 16 / 9), 75vh);
 }
 

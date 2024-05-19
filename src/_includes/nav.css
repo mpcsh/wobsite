@@ -6,15 +6,20 @@
 
 #nav a {
 	color: var(--fg);
-	transition: color 0.2s, background-color 0.2s;
-	text-transform: uppercase;
-	font-family: "VCR OSD Mono";
 	padding: 4px;
+	transition:
+		color 0.2s,
+		background-color 0.2s;
+
+	font-family: var(--title-font-family);
+	text-transform: uppercase;
 }
 
 #nav a:hover,
 #nav a:active {
 	color: var(--bg);
 	background-color: var(--fg);
-	transition: color 0.2s, background-color 0.2s;
+	transition:
+		color 0.2s,
+		background-color 0.2s;
 }

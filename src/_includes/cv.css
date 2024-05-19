@@ -11,8 +11,8 @@ body {
 
 	background-color: var(--bg);
 
-	font-family: "Spectral";
-	font-size: 20px;
+	font-family: var(--body-font-family);
+	font-size: var(--body-font-size);
 	line-height: 1.6;
 	color: var(--fg);
 }
@@ -31,20 +31,15 @@ p {
 	box-sizing: border-box;
 }
 
-code {
-	font-family: "Cascadia Code PL";
-	font-size: 13px;
-}
-
 .heading {
 	width: 100%;
-	font-weight: bold;
 	border-top: 2px solid var(--fg-faint);
 	border-bottom: 2px solid var(--fg-faint);
 	padding: 0.25rem 2px;
 	box-sizing: border-box;
 
-	font-family: "VCR OSD Mono";
+	font-family: var(--title-font-family);
+	font-weight: bold;
 	font-size: 1.25em;
 	text-transform: uppercase;
 }
@@ -77,9 +72,6 @@ code {
 	border: none;
 	margin-top: 0;
 	line-height: 1;
-
-	font-family: "VCR OSD Mono";
-	text-transform: uppercase;
 
 	display: grid;
 	grid-template-areas:
