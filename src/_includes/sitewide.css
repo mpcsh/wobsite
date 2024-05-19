@@ -75,8 +75,13 @@ code {
 }
 
 hr {
-	border-top: 2px solid var(--bg-faint);
-	border-bottom: 0;
+	border-color: var(--bg-faint);
+	border-top-width: 2px;
+	border-top-style: solid;
+
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
 }
 
 blockquote {
