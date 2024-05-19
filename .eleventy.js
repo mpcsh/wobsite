@@ -1,9 +1,9 @@
-const description = require("eleventy-plugin-description");
-const readingTime = require("reading-time");
+import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
+import description from "eleventy-plugin-description";
+import readingTime from "reading-time";
 
-module.exports = function (config) {
+export default function (config) {
 	config.addPassthroughCopy("src/fonts");
-	config.addPassthroughCopy("src/img");
 
 	config.addFilter("dateFormat", (date) =>
 		new Intl.DateTimeFormat("en-US", {
@@ -27,10 +27,20 @@ module.exports = function (config) {
 		Math.ceil(readingTime(templateContent).minutes),
 	);
 
+	config.addPlugin(eleventyImageTransformPlugin, {
+		extensions: "html",
+		formats: ["avif"],
+		widths: ["auto"],
+		defaultAttributes: {
+			loading: "lazy",
+			decoding: "async",
+		},
+	});
+
 	return {
 		dir: {
 			input: "src",
 			output: "build",
 		},
 	};
-};
+}
