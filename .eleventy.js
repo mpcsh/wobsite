@@ -1,3 +1,4 @@
+import path from "node:path";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import description from "eleventy-plugin-description";
 import readingTime from "reading-time";
@@ -34,6 +35,9 @@ export default function (config) {
 		defaultAttributes: {
 			loading: "lazy",
 			decoding: "async",
+		},
+		filenameFormat: function (_id, src, _width, format, _options) {
+			return `${path.parse(src).name}.${format}`;
 		},
 	});
 

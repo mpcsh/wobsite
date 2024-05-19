@@ -9,7 +9,7 @@ date: 2021-06-01
 <meta name="twitter:creator" content="@mpcsh_">
 <meta name="twitter:title" content="Wy'east trip report">
 <meta name="twitter:description" content="Wy'east - better known by its colonizer name, Mount Hood - is an 11249' stratovolcano situated just southeast of Portland, OR, in the [Cascade Arc](https://en.wikipedia.org/wiki/Cascade_Volcanoes). Towering over the surrounding landscape, its comparatively high elevation and relatively low bar to entry made it an attractive objective for my first real ski mountaineering objective. A route called the Wy'east face (yes, the naming is redundant) begins from a ridgeline about 500' below the summit, presenting a continuous ski descent of about 5400'. The first 2500' - shown by the red line below - are a gorgeous, wide open face at a sustained 35 to 40 degrees of steepness.">
-<meta name="twitter:image" content="https://mpc.sh/img/wyeast-dusk.jpg">
+<meta name="twitter:image" content="https://mpc.sh/img/wyeast-route.avif">
 <meta name="twitter:image:alt" content="A photo of Wy'east from the southeast at dusk. The upper mountain is blanketed in snow, and the snow fields break up and become patchy at lower elevations, revealing brown volcanic rock.">
 
 Wy'east - better known by its colonizer name, Mount Hood - is an 11249' stratovolcano situated just

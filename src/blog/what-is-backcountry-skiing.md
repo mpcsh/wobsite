@@ -8,14 +8,14 @@ date: 2021-03-09
 <meta name="twitter:creator" content="@mpcsh_">
 <meta name="twitter:title" content="What is backcountry skiing?">
 <meta name="twitter:description" content="If you've ever talked to me for more than a minute, you've likely heard me talk about the main passion in my life: backcountry skiing. If you've ever wondered what it is, why I do it, and how I move in the mountains, then this is the post for you!">
-<meta name="twitter:image" content="https://mpc.sh/img/time-to-ski.jpg">
+<meta name="twitter:image" content="https://mpc.sh/img/time-to-ski.avif">
 <meta name="twitter:image:alt" content="Yours truly, geared up to ski, standing among a field of sparse barren trees and snow">
 
 If you've ever talked to me for more than a minute, you've likely heard me talk about the main
 passion in my life: backcountry skiing. If you've ever wondered what it is, why I do it, and how I
 move in the mountains, then this is the post for you!
 
-![Yours truly, geared up to ski, standing among a field of sparse barren trees and snow](https://mpc.sh/img/time-to-ski.jpg)
+![Yours truly, geared up to ski, standing among a field of sparse barren trees and snow](/img/time-to-ski.jpg)
 
 Some - perhaps many - of you are likely familiar with resort skiing. You go to a ski area with a
 bunch of lifts and a bunch of designated trails. You ride the lift, ski down, and repeat. Depending
