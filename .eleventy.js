@@ -10,7 +10,7 @@ export default function (config) {
 			year: "numeric",
 			month: "long",
 			day: "numeric",
-			timeZone: "UTC",
+			timeZone: "America/Los_Angeles",
 		}).format(date),
 	);
 
