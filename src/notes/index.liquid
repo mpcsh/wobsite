@@ -1,0 +1,19 @@
+---
+layout: base
+eleventyExcludeFromCollections: true
+title: Notes
+---
+
+<h1>Notes</h1>
+
+<div class="posts">
+	{% for post in collections.notes reversed %}
+		<a href="{{ post.url }}">
+			<div class="post-summary">
+				<div class="title">{{ post.data.title }}</div>
+				<div class="date">{{ post.page.date | dateFormat }}</div>
+				<div class="description">{{ post.templateContent | description }}</div>
+			</div>
+		</a>
+	{% endfor %}
+</div>
