@@ -15,8 +15,4 @@ I'm nonbinary. My pronouns are `they/them`.
 
 I live for ski mountaineering. I also live for music - I'm a guitarist and singer. I keep quarterly playlists on [Apple Music](https://music.apple.com/profile/mpcsh), if you want to check out what I'm listening to.
 
-If you'd like to chat, I'm reachable via email at:
-
-```
-$ echo aGlAbXBjLnNoCg== | base64 --decode
-```
+If you'd like to chat, I'm reachable at <a id="addr" onmouseenter="fillAddr('YUdrPQ==')" onfocus="fillAddr('YUdrPQ==')" tabindex=0>_hover here..._</a>.
