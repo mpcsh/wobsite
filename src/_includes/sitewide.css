@@ -149,7 +149,7 @@ blockquote {
 }
 
 #license {
-	font-size: 14px;
+	font-size: 0.5em;
 }
 
 @media screen and (max-width: 450px) {
