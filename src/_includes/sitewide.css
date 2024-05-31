@@ -113,7 +113,7 @@ blockquote {
 	grid-template-rows: auto;
 	grid-template-areas:
 		"title date"
-		"description minutes";
+		"description .";
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
@@ -141,13 +141,6 @@ blockquote {
 	font-size: 16px;
 }
 
-.post-summary .minutes {
-	grid-area: minutes;
-	text-align: right;
-
-	font-size: 16px;
-}
-
 #license {
 	font-size: 0.5em;
 }
@@ -159,7 +152,7 @@ blockquote {
 		grid-template-rows: auto;
 		grid-template-areas:
 			"title title"
-			"date minutes"
+			"date ."
 			"description description";
 		margin-top: 20px;
 		margin-bottom: 20px;
@@ -169,13 +162,6 @@ blockquote {
 		padding-right: 6px;
 		border-right: 2px solid var(--bg-faint);
 		text-align: left;
-
-		font-style: italic;
-	}
-
-	.post-summary .minutes {
-		text-align: left;
-		padding-left: 6px;
 
 		font-style: italic;
 	}

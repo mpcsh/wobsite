@@ -1,7 +1,6 @@
 import path from "node:path";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import description from "eleventy-plugin-description";
-import readingTime from "reading-time";
 
 export default function (config) {
 	config.addPassthroughCopy("src/fonts");
@@ -23,10 +22,6 @@ export default function (config) {
 			})),
 		},
 	});
-
-	config.addFilter("readingTime", (templateContent) =>
-		Math.ceil(readingTime(templateContent).minutes),
-	);
 
 	config.addPlugin(eleventyImageTransformPlugin, {
 		extensions: "html",
