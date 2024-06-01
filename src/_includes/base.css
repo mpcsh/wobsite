@@ -4,13 +4,13 @@
 @font-face {
 	font-family: "VCR OSD Mono";
 	font-display: swap;
-	src: url(/fonts/vcr-osd-mono.latin.woff2) format("woff2");
+	src: url(/assets/fonts/vcr-osd-mono.latin.woff2) format("woff2");
 }
 
 @font-face {
 	font-family: "VT323";
 	font-display: swap;
-	src: url(/fonts/vt323.latin.woff2) format("woff2");
+	src: url(/assets/fonts/vt323.latin.woff2) format("woff2");
 }
 
 /*
@@ -19,21 +19,21 @@
 @font-face {
 	font-family: "Spectral";
 	font-display: swap;
-	src: url(/fonts/spectral/spectral.latin.woff2) format("woff2");
+	src: url(/assets/fonts/spectral/spectral.latin.woff2) format("woff2");
 }
 
 @font-face {
 	font-family: "Spectral";
 	font-weight: 700;
 	font-display: swap;
-	src: url(/fonts/spectral/spectral-bold.latin.woff2) format("woff2");
+	src: url(/assets/fonts/spectral/spectral-bold.latin.woff2) format("woff2");
 }
 
 @font-face {
 	font-family: "Spectral";
 	font-style: italic;
 	font-display: swap;
-	src: url(/fonts/spectral/spectral-italic.latin.woff2) format("woff2");
+	src: url(/assets/fonts/spectral/spectral-italic.latin.woff2) format("woff2");
 }
 
 @font-face {
@@ -41,13 +41,13 @@
 	font-weight: 700;
 	font-style: italic;
 	font-display: swap;
-	src: url(/fonts/spectral/spectral-italic.latin.woff2) format("woff2");
+	src: url(/assets/fonts/spectral/spectral-italic.latin.woff2) format("woff2");
 }
 
 @font-face {
 	font-family: "M+ 1";
 	font-display: swap;
-	src: url("/fonts/m-plus-1.latin.woff2") format("woff2");
+	src: url("/assets/fonts/m-plus-1.latin.woff2") format("woff2");
 }
 
 /*
@@ -56,33 +56,33 @@
 @font-face {
 	font-family: "Cascadia Mono";
 	font-display: swap;
-	src: url(/fonts/cascadia-mono.latin.woff2) format("woff2");
+	src: url(/assets/fonts/cascadia-mono.latin.woff2) format("woff2");
 }
 
 @font-face {
 	font-family: "M+ 1 Code";
 	font-display: swap;
-	src: url("/fonts/m-plus-1-code.latin.woff2") format("woff2");
+	src: url("/assets/fonts/m-plus-1-code.latin.woff2") format("woff2");
 }
 
 @font-face {
 	font-family: "Iosevka";
 	font-display: swap;
-	src: url("/fonts/iosevka/iosevka.latin.woff2") format("woff2");
+	src: url("/assets/fonts/iosevka/iosevka.latin.woff2") format("woff2");
 }
 
 @font-face {
 	font-family: "Iosevka";
 	font-weight: 700;
 	font-display: swap;
-	src: url("/fonts/iosevka/iosevka-bold.latin.woff2") format("woff2");
+	src: url("/assets/fonts/iosevka/iosevka-bold.latin.woff2") format("woff2");
 }
 
 @font-face {
 	font-family: "Iosevka";
 	font-style: italic;
 	font-display: swap;
-	src: url("/fonts/iosevka/iosevka-italic.latin.woff2") format("woff2");
+	src: url("/assets/fonts/iosevka/iosevka-italic.latin.woff2") format("woff2");
 }
 
 @font-face {
@@ -90,7 +90,7 @@
 	font-weight: 700;
 	font-style: italic;
 	font-display: swap;
-	src: url("/fonts/iosevka/iosevka-bold-italic.latin.woff2") format("woff2");
+	src: url("/assets/fonts/iosevka/iosevka-bold-italic.latin.woff2") format("woff2");
 }
 
 :root {
