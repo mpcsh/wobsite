@@ -7,4 +7,5 @@ export default {
 	bracketSameLine: true,
 	arrowParens: "always",
 	proseWrap: "always",
+	plugins: ["@shopify/prettier-plugin-liquid"],
 };

@@ -3,7 +3,7 @@ import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import description from "eleventy-plugin-description";
 
 export default function (config) {
-	config.addPassthroughCopy("src/assets");
+	config.addPassthroughCopy("src/static");
 
 	config.addFilter("dateFormat", (date) =>
 		new Intl.DateTimeFormat("en-US", {
@@ -40,6 +40,9 @@ export default function (config) {
 		dir: {
 			input: "src",
 			output: "build",
+
+			includes: "_includes",
+			layouts: "_layouts",
 		},
 	};
 }

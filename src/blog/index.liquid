@@ -1,18 +1,16 @@
 ---
-layout: "default"
+layout: base
 eleventyExcludeFromCollections: true
-title: "Blog"
+title: Blog
 ---
 
 <h1>Blog</h1>
 
 <div class="posts">
-	{% for post in collections.blog | reverse %}
+	{% for post in collections.blog reversed %}
 		<a href="{{ post.url }}">
 			<div class="post-summary">
-				<div class="title">
-					{{ post.data.title }}
-				</div>
+				<div class="title">{{ post.data.title }}</div>
 				<div class="date">{{ post.page.date | dateFormat }}</div>
 				<div class="description">{{ post.templateContent | description }}</div>
 			</div>

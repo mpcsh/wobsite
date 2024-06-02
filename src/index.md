@@ -1,6 +1,6 @@
 ---
-layout: "default"
-title: "mpcsh"
+layout: base
+title: mpcsh
 ---
 
 # Hi, I'm Mark.

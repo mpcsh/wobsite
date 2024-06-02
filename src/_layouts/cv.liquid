@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		{% include "head.liquid" %}
+		<link rel="stylesheet" href="/static/css/cv.css" />
+	</head>
+
+	<body>
+		{% include "nav.liquid" %}
+		<main>
+			{{ content }}
+		</main>
+	</body>
+
+	{% include "addr-script.liquid" %}
+</html>

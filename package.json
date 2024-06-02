@@ -15,7 +15,8 @@
 		"eleventy-plugin-description": "^1.0.0"
 	},
 	"devDependencies": {
-		"eslint": "^9.3.0",
+		"@shopify/prettier-plugin-liquid": "^1.5.0",
+		"eslint": "^9.4.0",
 		"eslint-config-prettier": "^9.1.0",
 		"prettier": "^3.2.5"
 	}
