@@ -57,15 +57,17 @@ p {
 		border-color 0.25s;
 }
 
-#left section:hover > .heading,
-#right section:hover > .heading {
-	background-color: var(--fg-accent);
-	color: var(--bg);
-	transition:
-		background-color 0.5s,
-		color 0.5s,
-		border-color 0.5s;
-	border-color: transparent;
+@media screen {
+	#left section:hover > .heading,
+	#right section:hover > .heading {
+		background-color: var(--fg-accent);
+		color: var(--bg);
+		transition:
+			background-color 0.5s,
+			color 0.5s,
+			border-color 0.5s;
+		border-color: transparent;
+	}
 }
 
 #nameplate {

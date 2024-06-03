@@ -165,13 +165,15 @@ a:visited {
 	border-radius: 2px;
 }
 
-a:hover,
-a:active {
-	color: var(--bg);
-	background-color: var(--blue);
-	transition:
-		background-color 0.25s,
-		color 0.25s;
+@media screen {
+	a:hover,
+	a:active {
+		color: var(--bg);
+		background-color: var(--blue);
+		transition:
+			background-color 0.25s,
+			color 0.25s;
+	}
 }
 
 pre,
@@ -230,13 +232,15 @@ blockquote {
 	text-transform: uppercase;
 }
 
-#nav a:hover,
-#nav a:active {
-	color: var(--bg);
-	background-color: var(--fg);
-	transition:
-		color 0.2s,
-		background-color 0.2s;
+@media screen {
+	#nav a:hover,
+	#nav a:active {
+		color: var(--bg);
+		background-color: var(--fg);
+		transition:
+			color 0.2s,
+			background-color 0.2s;
+	}
 }
 
 /* blog index */
@@ -245,14 +249,18 @@ blockquote {
 	text-decoration: none;
 }
 
-.posts a:hover,
-.posts a:active {
-	color: var(--blue);
+@media screen {
+	.posts a:hover,
+	.posts a:active {
+		color: var(--blue);
+	}
 }
 
-.posts a:hover .title,
-.posts a:active .title {
-	color: var(--blue);
+@media screen {
+	.posts a:hover .title,
+	.posts a:active .title {
+		color: var(--blue);
+	}
 }
 
 .post-summary {
