@@ -106,7 +106,7 @@
 	--code-font-size: 18px;
 }
 
-@media (prefers-color-scheme: dark) {
+@media screen and (prefers-color-scheme: dark) {
 	:root {
 		--fg: hsl(263, 92%, 95%);
 		--fg-faint: hsl(263, 72%, 75%);
