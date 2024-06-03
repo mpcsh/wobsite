@@ -39,7 +39,7 @@ p {
 	box-sizing: border-box;
 
 	font-family: var(--title-font-family);
-	font-weight: bold;
+	font-weight: normal;
 	font-size: 1.25em;
 	text-transform: uppercase;
 }
