@@ -1,22 +1,8 @@
 ---
 title: "Hire me as a force multiplier on your engineering team"
+socialDescription: "Let's go! I'm on the market, looking for senior IC roles in engineering."
 date: 2024-06-03
 ---
-
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://mpc.sh/blog/hire-me" />
-<meta property="og:title" content="Hire me as a force multiplier on your engineering team" />
-<meta property="og:description" content="Let's go! I'm on the market, looking for senior IC roles in engineering.">
-<meta property="og:image" content="https://mpc.sh/static/nonbinary-flag-2x1.png" />
-<meta property="og:image:alt" content="The nonbinary pride flag, which consists of four horizontal stripes: yellow, white, purple, and black, from top to bottom.">
-
-<meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="@mpcsh_">
-<meta name="twitter:creator" content="@mpcsh_">
-<meta name="twitter:title" content="Hire me as a force multiplier on your engineering team">
-<meta name="twitter:description" content="Let's go! I'm on the market, looking for senior IC roles in engineering.">
-<meta name="twitter:image" content="https://mpc.sh/static/nonbinary-flag-1x1.png">
-<meta name="twitter:image:alt" content="The nonbinary pride flag, which consists of four horizontal stripes: yellow, white, purple, and black, from top to bottom.">
 
 Let's go! I'm on the market, looking for senior IC roles in engineering.
 
