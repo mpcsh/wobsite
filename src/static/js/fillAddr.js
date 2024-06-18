@@ -1,4 +1,3 @@
-<script>
 let addrFilled = false;
 
 function fillAddr(addrEncoded) {
@@ -14,4 +13,3 @@ function fillAddr(addrEncoded) {
 	anchor.innerText = `${addr}${domain}`;
 	addrFilled = true;
 }
-</script>

@@ -122,8 +122,8 @@
 body {
 	background-color: var(--bg);
 	max-width: 650px;
-	margin: 40px auto;
-	padding: 0px 10px;
+	margin: 0px auto;
+	padding: 40px 10px;
 
 	font-family: var(--body-font-family);
 	font-size: var(--body-font-size);
