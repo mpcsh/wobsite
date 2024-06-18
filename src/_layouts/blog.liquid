@@ -1,18 +1,29 @@
----
-layout: base
----
+<!doctype html>
+<html lang="en">
+	<head>
+		{% include "head.liquid" %}
+		<link rel="stylesheet" href="/static/css/blog.css" />
+	</head>
 
-<h1>{{ title }}</h1>
+	<body>
+		{% include "nav.liquid" %}
+		<h1>{{ title }}</h1>
 
-<p>Mark Cohen, {{ page.date | dateFormat }}</p>
+		<p id="byline">Mark Cohen, {{ page.date | dateFormat }}</p>
 
-<hr />
+		<hr />
 
-{{ content }}
+		{{ content }}
 
-<hr />
-<p id="license">
-	<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"
-		><em>CC BY-NC-ND 4.0</em></a
-	>
-</p>
+		<div id="license">
+			<hr />
+			<p>
+				<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"
+					><em>CC BY-NC-ND 4.0</em></a
+				>
+			</p>
+		</div>
+	</body>
+
+	{% include "addr-script.liquid" %}
+</html>
