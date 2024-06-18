@@ -6,7 +6,7 @@
 	"type": "module",
 	"scripts": {
 		"build": "./node_modules/.bin/eleventy",
-		"serve": "./node_modules/.bin/eleventy --serve",
+		"serve": "npm run clean && ./node_modules/.bin/eleventy --serve",
 		"clean": "rm -rf .cache/ build/"
 	},
 	"dependencies": {
