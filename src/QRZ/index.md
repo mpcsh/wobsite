@@ -14,7 +14,7 @@ _Last update: {{ page.date | dateFormat }}_
 
 ![The nonbinary pride flag, which is made from four horizontal stripes: yellow, white, purple, and black, from top to bottom.](/static/nonbinary-flag-2x1.svg)
 
-Hi! I'm **Mark KK7QYZ (they)**, from Ballard, Seattle, WA.
+Hi! I'm **Mark WA7MPC** — formerly **KK7QYZ**, from Ballard, Seattle, WA. I'm nonbinary; my pronouns are **they/them**.
 
 I'm originally from Maryland and North Carolina, and I lived in and loved Chicago for six years before moving here at the very start of 2021.
 
