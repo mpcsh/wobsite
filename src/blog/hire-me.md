@@ -2,6 +2,7 @@
 title: "Hire me as a force multiplier on your engineering team"
 socialDescription: "Let's go! I'm on the market, looking for senior IC roles in engineering."
 date: 2024-06-03
+eleventyExcludeFromCollections: true
 ---
 
 Let's go! I'm on the market, looking for senior IC roles in engineering.
