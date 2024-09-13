@@ -206,7 +206,7 @@ p {
 		background-color: var(--bg-faint);
 	}
 
-	#proficiencies {
+	#skills {
 		line-height: calc(1 + 2 / 3);
 	}
 
