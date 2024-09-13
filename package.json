@@ -10,7 +10,7 @@
 		"clean": "rm -rf .cache/ build/"
 	},
 	"dependencies": {
-		"@11ty/eleventy": "3.0.0-alpha.10",
+		"@11ty/eleventy": "3.0.0-alpha.20",
 		"@11ty/eleventy-img": "^4.0.2",
 		"eleventy-plugin-description": "^1.0.0"
 	},
