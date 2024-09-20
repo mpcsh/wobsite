@@ -46,6 +46,12 @@
 	src: url("/static/fonts/m-plus-1.latin.woff2") format("woff2");
 }
 
+@font-face {
+	font-family: "Anaheim";
+	font-display: swap;
+	src: url("/static/fonts/anaheim-variable.latin.woff2") format("woff2");
+}
+
 /* code fonts */
 @font-face {
 	font-family: "Cascadia Mono";
