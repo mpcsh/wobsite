@@ -3,6 +3,7 @@ import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import description from "eleventy-plugin-description";
 
 export default function (config) {
+	config.addPassthroughCopy("src/_redirects");
 	config.addPassthroughCopy("src/static");
 
 	config.addFilter("dateFormat", (date) =>
