@@ -46,7 +46,7 @@ p {
 
 #left .quick-info,
 #right .job {
-	margin-top: 3em;
+	margin-top: 1.5em;
 }
 
 #left section > .heading,
@@ -130,7 +130,7 @@ p {
 
 		display: grid;
 		grid-template-areas: "left right";
-		grid-template-columns: 1fr 1.9fr;
+		grid-template-columns: 1fr 2.15fr;
 		justify-items: center;
 	}
 
@@ -177,7 +177,7 @@ p {
 
 		display: grid;
 		grid-template-areas: "left right";
-		grid-template-columns: 1fr 2.3fr;
+		grid-template-columns: 1fr 2.5fr;
 		align-items: center;
 		justify-items: center;
 
@@ -212,7 +212,7 @@ p {
 
 	#left .quick-info,
 	#right .job {
-		margin-top: 0.75em;
+		margin-top: 0.5em;
 	}
 
 	#right .job:first-child {
