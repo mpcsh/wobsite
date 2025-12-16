@@ -1,2 +1,43 @@
-<script src="/static/js/fillAddr.js"></script>
-<script src="/static/js/iframeResize.js"></script>
+<script type="text/javascript">
+let addrFilled = false;
+
+function fillAddr(addrEncoded) {
+	if (addrFilled) {
+		return;
+	}
+
+	const prefix = atob(atob("YldGcGJIUnZPZz09"));
+	const addr = atob(atob(addrEncoded));
+	const domain = atob(atob("UUcxd1l5NXphQT09"));
+	const anchor = document.getElementById("addr");
+	anchor.href = `${prefix}${addr}${domain}`;
+	anchor.innerText = `${addr}${domain}`;
+	addrFilled = true;
+}
+</script>
+
+<script type="text/javascript">
+// child page:
+window.addEventListener("load", () => {
+	const msg = {
+		type: "iframeResize",
+		width: document.body.scrollWidth,
+		height: document.body.scrollHeight,
+	};
+
+	// window.top is the outermost parent in an iframe chain: https://developer.mozilla.org/en-US/docs/Web/API/Window/top
+	// "*" indicates no preference for target origin: https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage#targetorigin
+	window.top.postMessage(msg, "*");
+});
+
+// parent page:
+window.addEventListener("message", ({ data: { type, width, height } }) => {
+	if (type === "iframeResize") {
+		const iframe = document.getElementById("embed");
+		if (iframe) {
+			iframe.style.width = width + "px";
+			iframe.style.height = height + "px";
+		}
+	}
+});
+</script>
