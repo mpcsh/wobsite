@@ -29,7 +29,8 @@ export default function (config) {
 		formats: ["avif"],
 		widths: ["auto"],
 		defaultAttributes: {
-			loading: "lazy",
+			loading: "eager",
+			fetchpriority: "high",
 			decoding: "async",
 		},
 		filenameFormat: function (_id, src, _width, format, _options) {
