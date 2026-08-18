@@ -16,7 +16,7 @@
 	},
 	"devDependencies": {
 		"@shopify/prettier-plugin-liquid": "^1.5.0",
-		"eslint": "^9.4.0",
+		"eslint": "^10.8.1",
 		"eslint-config-prettier": "^9.1.0",
 		"prettier": "^3.2.5"
 	}
